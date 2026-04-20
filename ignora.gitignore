@@ -1,0 +1,26 @@
+Plaintext
+# --- Entorno Local y Sistema ---
+.DS_Store
+Thumbs.db
+MAMP/
+logs/
+*.log
+
+# --- Archivos Multimedia Pesados ---
+*.mp4
+*.mov
+*.MOV
+
+# --- Gestión de Directorios de Usuario ---
+# Ignorar cualquier carpeta llamada uploads en cualquier nivel
+**/uploads/
+# Ignorar partituras específicamente
+uploads/partituras/
+
+# --- Galería del Portal ---
+gallery/gallery/
+gallery/
+
+# --- Configuraciones Sensibles ---
+config_local.php
+.env
